@@ -1,8 +1,15 @@
 body{
 	background-color: white;
+	background-image: url('background.jpg');
 }
 
 header{
-	background-color: #00ffe2;
+	background-color: #00ffe2ab;
 	color: white;
+	text-align: center;
+	font-size: 200%;
+}
+
+footer{
+	background-color: black;
 }
