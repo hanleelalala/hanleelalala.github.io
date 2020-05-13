@@ -1,10 +1,27 @@
-body{
+/*body{
 	background-color: white;
-	background-image: url('Sagrada Familia.jpg');
+	background-image: url('background.jpg');
 	background-repeat: no-repeat;
   	background-attachment: scroll;  
-  	background-size: cover;
+  	background-size: 100% 100%;
+  	background-position: center;
 }
+*/
+
+.bg{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index:-999;
+
+}
+.bg img{
+	width: 100%;
+}
+
+        
 
 header{
 	background-color: rgba(0, 0, 0, 0.6);
@@ -24,26 +41,13 @@ footer{
 	color:white;
 	text-align: center;
 	font-size: 14px;
-	position:relative;
-   	bottom:0;
+	position:fixed;
+   	bottom: 0;
    	width:100%;
    	height:40px;
-   	
-   	
 }
 
-.footerbar {
-	display: inline-block; /* 這個讓他框框不會整行都是 */
-	border: 1px solid #fff; /* 這是連結的框框*/
-  	font-size: 14px;
-  	line-height: 24px;
-  	border-radius: 3px;
-  	padding: 2px 15px;
-  	text-decoration: none; /* 這是連結下面那個底線*/
-  	margin-top: 5px;
-  	color: white;
-  	width: 100%;
-}
+
 
 span{
 	border: 1px solid #fff; /* 這是連結的框框*/
