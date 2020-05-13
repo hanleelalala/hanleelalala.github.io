@@ -11,6 +11,11 @@
 	width: 100%;
 }
 
+.im_class {
+	width = "50%"
+	
+}
+
 header{
 	background-color: rgba(0, 0, 0, 0.6);
 	/*background-image: url('../images/Sagrada Familia.jpg');*/	color: white;
@@ -21,7 +26,7 @@ header{
 	top:0;
 	left:0;
 	display: block;
-	z-index: 9999;	
+	/*z-index: 9999;*/	
 }
 
 footer{
