@@ -12,8 +12,11 @@
 }
 
 .im_class {
-	width = "50%"
-	
+	width = "50%";
+	/*position:absolute;*/
+	/*margin-top: 100px;*/
+	top:1000px;
+
 }
 
 header{
@@ -26,7 +29,7 @@ header{
 	top:0;
 	left:0;
 	display: block;
-	/*z-index: 9999;*/	
+	z-index: 9999;	
 }
 
 footer{
