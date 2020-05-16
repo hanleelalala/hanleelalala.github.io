@@ -159,3 +159,30 @@ footer{
  	border: 1px solid black;
  	border-radius: 3px;
  }
+
+ #AboutMePosition{
+ 	position: absolute;
+ 	top:10vw;
+ 	right:25vw;
+ }
+
+#AboutMePosition a{
+ 	box-sizing: border-box;
+ 	height:30px;
+ 	background :rgba(48,199,189,1);
+ 	border-radius: 30px;
+ 	text-decoration: none;
+ 	padding:10px 20px;
+ 	color:white;
+ 	
+ }
+#AboutMePosition a:hover{
+ 	box-sizing: border-box;
+ 	height:30px;
+ 	background :white;
+ 	color:rgba(48,199,189,1);
+ 	border-radius: 30px;
+ 	text-decoration: none;
+ 	padding:10px 20px;
+ 	
+ }
