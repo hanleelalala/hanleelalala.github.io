@@ -86,7 +86,7 @@ footer{
 
 
 
-span{
+.footer_span{
 	border: 1px solid #fff; /* 這是連結的框框*/
   	font-size: 14px;
   	line-height: 40px;
@@ -126,4 +126,55 @@ span{
   text-decoration: none; /* 這是連結下面那個底線*/
   margin-top: 5px;
   color: white;
+}
+
+table{
+	position:relative;
+	margin-left:15%;
+	top:50px;
+	/*width:70%;*/
+	border-radius: 0 0 25px 25px;
+	border:3px solid black;
+}
+
+table caption{
+	background:grey;
+	border-radius:25px 25px 0 0;
+}
+
+tr:nth-child(odd){
+	background:#F2F2F2; 
+
+}
+tr:nth-child(even){
+	background:#CDBB79; 
+
+}
+
+tr:last-child>td:first-child{
+	border-radius:0 0 0 25px;
+}
+tr:last-child>td:last-child{
+	border-radius:0 0 25px 0;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+	vertical-align:top;
+}
+
+.secret{
+	display:block;
+	visibility:hidden;
+	font-size: 20px;
+	color:white;
+}
+
+td:hover>span.secret{
+	visibility:visible;
+}
+
+.old{
+	color:grey;
 }
