@@ -42,14 +42,10 @@
 	margin-top:70px;
 	text-align: center;
 	position relative;
-	/*top:50px;*/
-	
 }
 
 #AboutMeImg img{
 	width: 70%;
-	
-	
 }
 
 .NoMarginBody{
@@ -98,15 +94,11 @@ footer{
   	width: 100%;
 }
 
-
-
 .navbar {
   width: 100%;
   background-color: rgba(48,199,189,1);
   height: 40px;
-  /*z-index: 9999;*/
   position: fixed;
-  /*top:42.5px;*/
   display: block;
 }
 
@@ -128,53 +120,42 @@ footer{
   color: white;
 }
 
-table{
-	position:relative;
-	margin-left:15%;
-	top:50px;
-	/*width:70%;*/
-	border-radius: 0 0 25px 25px;
-	border:3px solid black;
+.navbar a:hover{
+  display: inline-block;
+  border: 1px solid black; /* 這是連結的框框*/
+  color: black;
 }
 
-table caption{
-	background:grey;
-	border-radius:25px 25px 0 0;
+.navbar ul {
+  list-style: none;
 }
 
-tr:nth-child(odd){
-	background:#F2F2F2; 
-
-}
-tr:nth-child(even){
-	background:#CDBB79; 
-
+.navbar li{
+	display:inline-block;
 }
 
-tr:last-child>td:first-child{
-	border-radius:0 0 0 25px;
-}
-tr:last-child>td:last-child{
-	border-radius:0 0 25px 0;
-}
-
-td{
-	width: 100px;
-	height: 100px;
-	vertical-align:top;
+.navbar li ul{
+	position:absolute;
+	display:none;
+	width:inherit;
+	margin: 0 auto;
+   	text-align: center;
 }
 
-.secret{
+
+
+.navbar li:hover ul{
 	display:block;
-	visibility:hidden;
-	font-size: 20px;
-	color:white;
 }
 
-td:hover>span.secret{
-	visibility:visible;
-}
+.navbar li ul li {
+   display: block;
+   text-align:left;
+   margin-left:-3vw;
+ }
 
-.old{
-	color:grey;
-}
+.navbar li ul li a{
+ 	color:black;
+ 	border: 1px solid black;
+ 	border-radius: 3px;
+ }
