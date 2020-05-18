@@ -152,25 +152,32 @@ footer{
    display: block;
    text-align:left;
    margin-left:-3vw;
- }
+}
 
 .navbar li ul li a{
  	color:black;
  	border: 1px solid black;
  	border-radius: 3px;
- }
+}
 
- #AboutMePosition{
+#AboutMePosition{
  	position: absolute;
- 	top:10vw;
+ 	top:12vw;
  	right:25vw;
- }
+ 	display: none;
+/* 	transition-property: opacity,right;
+ 	transition-duration: 0.5s;
+ 	transition-delay: 0.5s;
+ 	transition-timing-function: linear;*/
+}
+
 
 #AboutMePosition a{
  	box-sizing: border-box;
  	height:30px;
- 	background :rgba(48,199,189,1);
+/* 	background :rgba(48,199,189,1);*/
  	border-radius: 30px;
+ 	border: 1px solid white;
  	text-decoration: none;
  	padding:10px 20px;
  	color:white;
@@ -185,4 +192,12 @@ footer{
  	text-decoration: none;
  	padding:10px 20px;
  	
+ }
+
+ .closed{
+ 	display:none;
+ }
+
+ .open{
+ 	display: block;
  }
