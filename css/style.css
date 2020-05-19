@@ -24,9 +24,22 @@
 }
 
 .HeaderWithMargin{
-	position: relative;
-	padding-left:15%;
-	top:50px;
+	position: absolute;
+	top:5vw;
+	/*width:100vw;*/
+	/*padding:0 10vw;*/
+	/*box-sizing: border-box;*/
+	text-align:center;
+	font-size: 200%;
+	color:white;
+	border: 1px solid white;
+	margin:3vw 5vw;
+	padding:2vw;
+}
+.HeaderWithMargin p{
+	text-align: center;
+	font-size: 60%;
+
 }
 
 
@@ -38,14 +51,13 @@
 }
 
 #AboutMeImg {
-	margin : 0 auto;
-	margin-top:70px;
-	text-align: center;
-	position relative;
+	position absolute;
 }
 
 #AboutMeImg img{
-	width: 70%;
+	margin-top:5.01vw;
+	width: 100%;
+	opacity: 0.85;
 }
 
 .NoMarginBody{
@@ -97,7 +109,7 @@ footer{
 .navbar {
   width: 100%;
   background-color: rgba(48,199,189,1);
-  height: 40px;
+  height: 5vw;
   position: fixed;
   display: block;
 }
@@ -110,20 +122,21 @@ footer{
 
 .navbar a {
   display: inline-block;
-  border: 1px solid #fff; /* 這是連結的框框*/
-  font-size: 14px;
-  line-height: 24px;
+  /*border: 1px solid #fff;*/ /* 這是連結的框框*/
+  font-size: 2vw;
+  line-height: 3vw;
   border-radius: 3px;
   padding: 2px 15px;
   text-decoration: none; /* 這是連結下面那個底線*/
-  margin-top: 5px;
+  margin-top: 1vw;
   color: white;
 }
 
 .navbar a:hover{
   display: inline-block;
-  border: 1px solid black; /* 這是連結的框框*/
+  /*border: 1px solid black;*/ /* 這是連結的框框*/
   color: black;
+  /*margin:-1px;*/
 }
 
 .navbar ul {
@@ -151,7 +164,7 @@ footer{
 .navbar li ul li {
    display: block;
    text-align:left;
-   margin-left:-3vw;
+   margin-left:1vw;
 }
 
 .navbar li ul li a{
