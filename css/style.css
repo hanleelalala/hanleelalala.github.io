@@ -35,27 +35,102 @@
 	border: 1px solid white;
 	margin:3vw 5vw;
 	padding:2vw;
+	text-shadow: 0em 0em 0.15em black;
 }
 .HeaderWithMargin p{
 	text-align: center;
 	font-size: 60%;
 
+
 }
 
 
-.pAlignLeft{
+#p_in_AboutMe{
+	position:absolute;
+	top:40vw;
+	width:33vw;
+}
+
+#p_in_AboutMe p{
+	color:white;
+	margin-left: 5vw;
+	border:1px solid white;
+	padding:2vw;
+}
+
+#dj_img{
+	
+	/*margin-top:-3vw;*/
 	position:relative;
-	padding-left:15%;
-	top:50px;
-	width:70%;
+	/*top:80vw;*/
+}
+#dj_img img{
+	width:100%;
+	opacity: 0.85;
 }
 
+#a_in_dj_pic{
+	position:absolute;
+	top:80vw;
+	width:33vw;
+	right:10vw;
+}
+
+#a_in_dj_pic a{
+	color:white;
+	margin-left: 5vw;
+	border:1px solid white;
+	padding:2vw;
+	text-align: center;
+	text-decoration: none;
+}
+
+#a_in_dj_pic a:hover{
+	color:black;
+	margin-left: 5vw;
+	border:1px solid black;
+	padding:2vw;
+	text-align: center;
+	text-decoration: none;
+}
+
+#travel_img{
+	position:relative;
+	/*top:200vw;*/
+}
+#travel_img img{
+	width:100%;
+	opacity: 0.85;
+}
+
+#a_in_travel_pic{
+	position:absolute;
+	top:140vw;
+	width:33vw;
+	left:0vw;
+	margin-left:-2vw;
+}
+#a_in_travel_pic a{
+	color:black;
+	margin-left: 5vw;
+	border:1px solid black;
+	padding:2vw;
+	text-align: center;
+	text-decoration: none;
+}
+
+#a_in_travel_pic a:hover{
+	color:white;
+	border:1px solid white;
+	
+}
 #AboutMeImg {
-	position absolute;
+	position :relative;
 }
 
 #AboutMeImg img{
 	margin-top:5.01vw;
+	margin-bottom:-5.01vw;
 	width: 100%;
 	opacity: 0.85;
 }
@@ -79,20 +154,23 @@ header{
 	font-size: 30px;
 
 }
+body{
+	position:relative;
+	min-height: 100vh;
+	padding-bottom: 40px;
+}
 
 footer{
 	background-color: rgba(48,199,189,1);
 	color:white;
 	text-align: center;
-	position:fixed;
+	position:absolute;
 	width:100%;
    	bottom: 0;
    	left:0;
    	height:40px;
    	font-size: 14px;
 }
-
-
 
 .footer_span{
 	border: 1px solid #fff; /* 這是連結的框框*/
@@ -110,7 +188,7 @@ footer{
   width: 100%;
   background-color: rgba(48,199,189,1);
   height: 5vw;
-  position: fixed;
+  position: static;
   display: block;
 }
 
@@ -128,7 +206,7 @@ footer{
   border-radius: 3px;
   padding: 2px 15px;
   text-decoration: none; /* 這是連結下面那個底線*/
-  margin-top: 1vw;
+  margin-bottom: 1vw;
   color: white;
 }
 
@@ -136,7 +214,6 @@ footer{
   display: inline-block;
   /*border: 1px solid black;*/ /* 這是連結的框框*/
   color: black;
-  /*margin:-1px;*/
 }
 
 .navbar ul {
@@ -177,15 +254,52 @@ footer{
  	position: absolute;
  	top:12vw;
  	right:25vw;
- 	display: none;
-/* 	transition-property: opacity,right;
- 	transition-duration: 0.5s;
- 	transition-delay: 0.5s;
- 	transition-timing-function: linear;*/
 }
 
+#ESEPosition{
+ 	position: absolute;
+ 	top:125vw;
+ 	right:15vw;
+ 	/*display: none;*/
+ 	}
 
-#AboutMePosition a{
+#BikeeskyPosition{
+ 	position: absolute;
+ 	top:60vw;
+ 	right:25vw;
+ 	/*display: none;*/
+ 	}
+#DTPosition{
+ 	position: absolute;
+ 	top:40vw;
+ 	left:30vw;
+ 	/*display: none;*/
+ 	
+
+ 	}
+
+#ExchangeStudentPosition{
+ 	position: absolute;
+ 	top:100vw;
+ 	left:30vw;
+ 	/*display: none;*/
+ 	}
+
+#RAPosition{
+ 	position: absolute;
+ 	top:142vw;
+ 	left:10vw;
+ 	/*display: none;*/
+ 	}
+
+#HDRPosition{
+ 	position: absolute;
+ 	top:180vw;
+ 	right:35vw;
+ 	/*display: none;*/
+ 	}
+
+.home_pg_link a{
  	box-sizing: border-box;
  	height:30px;
 /* 	background :rgba(48,199,189,1);*/
@@ -194,9 +308,10 @@ footer{
  	text-decoration: none;
  	padding:10px 20px;
  	color:white;
- 	
  }
-#AboutMePosition a:hover{
+
+
+.home_pg_link a:hover{
  	box-sizing: border-box;
  	height:30px;
  	background :white;
@@ -204,7 +319,6 @@ footer{
  	border-radius: 30px;
  	text-decoration: none;
  	padding:10px 20px;
- 	
  }
 
  .closed{
@@ -214,3 +328,28 @@ footer{
  .open{
  	display: block;
  }
+
+ div[class^="col"]{
+ 	border:1px solid black;
+ }
+
+.h-transition-up {
+    -webkit-transition: 1.5s cubic-bezier(.2,0,.06,1);
+    transition: 1.5s cubic-bezier(.2,0,.06,1);
+    -webkit-transition-property: opacity,-webkit-transform;
+    transition-property: opacity,-webkit-transform;
+    transition-property: opacity,transform;
+    transition-property: opacity,transform,-webkit-transform;
+    will-change: opacity,transform;
+    opacity: 0;
+}
+.h-transition-up {
+    -webkit-transform: translateY(4rem);
+    transform: translateY(4rem);
+}
+
+.is-visible{
+	opacity: 1;
+    -webkit-transform: translateY(0) translateX(0) scale(1);
+    transform: translateY(0) translateX(0) scale(1);
+}
