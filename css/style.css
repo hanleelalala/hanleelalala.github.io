@@ -40,10 +40,7 @@
 .HeaderWithMargin p{
 	text-align: center;
 	font-size: 60%;
-
-
 }
-
 
 #p_in_AboutMe{
 	position:absolute;
@@ -56,74 +53,110 @@
 	margin-left: 5vw;
 	border:1px solid white;
 	padding:2vw;
+	text-shadow: 0em 0em 0.15em black;
 }
 
 #dj_img{
-	
-	/*margin-top:-3vw;*/
-	position:relative;
-	/*top:80vw;*/
+	margin-top:-3vw;
 }
 #dj_img img{
 	width:100%;
 	opacity: 0.85;
 }
 
+.parallax_dj {
+  /* The image used */
+  background-image: url("../images/dj_pic.jpg");
+
+  /* Set a specific height */
+  min-height: 90vw; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
+.parallax_travel {
+  /* The image used */
+  background-image: url("../images/Sagrada Familia.jpg");
+
+  /* Set a specific height */
+  min-height: 90vw; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #a_in_dj_pic{
 	position:absolute;
-	top:80vw;
+	top:110vw;
 	width:33vw;
-	right:10vw;
+	right:5vw;
 }
 
 #a_in_dj_pic a{
 	color:white;
+	text-decoration: none;
+}
+
+#a_in_dj_pic div{
 	margin-left: 5vw;
 	border:1px solid white;
 	padding:2vw;
-	text-align: center;
-	text-decoration: none;
+	text-align: left;
+	
+}
+
+#a_in_dj_pic div:hover{
+	border:1px solid black;
 }
 
 #a_in_dj_pic a:hover{
 	color:black;
-	margin-left: 5vw;
-	border:1px solid black;
-	padding:2vw;
-	text-align: center;
-	text-decoration: none;
+}
+
+.dj_youtube_pic{
+	width:2vw;
 }
 
 #travel_img{
 	position:relative;
 	/*top:200vw;*/
 }
-#travel_img img{
-	width:100%;
-	opacity: 0.85;
-}
 
 #a_in_travel_pic{
 	position:absolute;
-	top:140vw;
+	top:200vw;
 	width:33vw;
 	left:0vw;
 	margin-left:-2vw;
 }
-#a_in_travel_pic a{
-	color:black;
+#a_in_travel_pic div{
 	margin-left: 5vw;
-	border:1px solid black;
+	border:1px solid white;
 	padding:2vw;
 	text-align: center;
+}
+#a_in_travel_pic div:hover{
+	border:1px solid black;
+}
+#a_in_travel_pic a{
+	color:white;
 	text-decoration: none;
+	text-shadow: 0em 0em 0.15em black;
 }
 
 #a_in_travel_pic a:hover{
-	color:white;
-	border:1px solid white;
-	
+	color:black;
+	text-shadow: 0em 0em 0.15em white;
 }
+
 #AboutMeImg {
 	position :relative;
 }
@@ -252,8 +285,8 @@ footer{
 
 #AboutMePosition{
  	position: absolute;
- 	top:12vw;
- 	right:25vw;
+ 	top:15vw;
+ 	right:23vw;
 }
 
 #ESEPosition{
@@ -310,16 +343,33 @@ footer{
  	color:white;
  }
 
-
-.home_pg_link a:hover{
+ .home_pg_link a:hover{
  	box-sizing: border-box;
  	height:30px;
  	background :white;
  	color:rgba(48,199,189,1);
  	border-radius: 30px;
- 	text-decoration: none;
- 	padding:10px 20px;
+ 	
+ 	
  }
+.return_home{
+	margin-left:5vw;
+ 	
+}
+.return_home a{
+ 	color:rgba(48,199,189,1);
+ 	border: 1px solid rgba(48,199,189,1);
+ 	border-radius: 30px;
+ 	padding:10px 20px;
+ 	text-decoration: none;
+ 	transition: 1s cubic-bezier(.2,0,.06,1);
+ }
+
+.return_home a:hover{
+ 	color:white;
+ 	background-color:rgba(48,199,189,1); 
+ }
+
 
  .closed{
  	display:none;
