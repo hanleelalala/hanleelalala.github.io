@@ -217,7 +217,7 @@ footer{
   	width: 100%;
 }
 
-.navbar {
+.mynavbar {
   width: 100%;
   background-color: rgba(48,199,189,1);
   height: 5vw;
@@ -231,7 +231,7 @@ footer{
     text-align: center;
 }
 
-.navbar a {
+.mynavbar a {
   display: inline-block;
   /*border: 1px solid #fff;*/ /* 這是連結的框框*/
   font-size: 2vw;
@@ -243,21 +243,21 @@ footer{
   color: white;
 }
 
-.navbar a:hover{
+.mynavbar a:hover{
   display: inline-block;
   /*border: 1px solid black;*/ /* 這是連結的框框*/
   color: black;
 }
 
-.navbar ul {
+.mynavbar ul {
   list-style: none;
 }
 
-.navbar li{
+.mynavbar li{
 	display:inline-block;
 }
 
-.navbar li ul{
+.mynavbar li ul{
 	position:absolute;
 	display:none;
 	width:inherit;
@@ -267,17 +267,17 @@ footer{
 
 
 
-.navbar li:hover ul{
+.mynavbar li:hover ul{
 	display:block;
 }
 
-.navbar li ul li {
+.mynavbar li ul li {
    display: block;
    text-align:left;
    margin-left:1vw;
 }
 
-.navbar li ul li a{
+.mynavbar li ul li a{
  	color:black;
  	border: 1px solid black;
  	border-radius: 3px;
@@ -293,29 +293,23 @@ footer{
  	position: absolute;
  	top:125vw;
  	right:15vw;
- 	/*display: none;*/
  	}
 
 #BikeeskyPosition{
  	position: absolute;
  	top:60vw;
  	right:25vw;
- 	/*display: none;*/
  	}
 #DTPosition{
  	position: absolute;
  	top:40vw;
  	left:30vw;
- 	/*display: none;*/
- 	
-
  	}
 
 #ExchangeStudentPosition{
  	position: absolute;
  	top:100vw;
  	left:30vw;
- 	/*display: none;*/
  	}
 
 #RAPosition{
@@ -364,7 +358,15 @@ footer{
  	text-decoration: none;
  	transition: 1s cubic-bezier(.2,0,.06,1);
  }
-
+.light-green{
+	background-color: #98ded8;
+}
+.nav-link{
+	font-size: 65%;
+}
+.dropdown-item{
+	font-size: 65%;
+}
 .return_home a:hover{
  	color:white;
  	background-color:rgba(48,199,189,1); 
@@ -378,10 +380,10 @@ footer{
  .open{
  	display: block;
  }
-
- div[class^="col"]{
+/*div[class^="col"]{
  	border:1px solid black;
- }
+ }*/
+
 
 .h-transition-up {
     -webkit-transition: 1.5s cubic-bezier(.2,0,.06,1);
