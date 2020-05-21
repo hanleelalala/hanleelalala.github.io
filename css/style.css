@@ -13,7 +13,7 @@
 
 .hugepic {
 	position:relative;
-	top:50px;
+	top:1px;
 	margin: 0;
 	padding:0;
 
@@ -162,8 +162,8 @@
 }
 
 #AboutMeImg img{
-	margin-top:5.01vw;
-	margin-bottom:-5.01vw;
+	margin-top:0.1vw;
+	margin-bottom:-0.1vw;
 	width: 100%;
 	opacity: 0.85;
 }
