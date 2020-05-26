@@ -108,6 +108,70 @@
 background-image: url("../images/plg2.jpg");
 }
 
+#ESE_pic1{
+	background-image: url("../images/IMG_9565.JPG");
+	position:absolute;
+	top:6.5vw;
+	min-height: 50vw; 
+}
+#ESE_pic2{
+	background-image: url("../images/IMG_1543.JPG");
+	position:absolute;
+	top:56.5vw;
+	min-height: 60vw; 
+}
+#ESE_pic3{
+	background-image: url("../images/IMG_0488.JPG");
+	position:absolute;
+	top:116.5vw;
+	min-height: 130vw; 
+}
+#ESE_pic4{
+	background-image: url("../images/IMG_0477.JPG");
+	position:absolute;
+	top:246.5vw;
+	min-height: 80vw;
+}
+
+#ESE_pic5{
+	background-image: url("../images/IMG_4839.jpg");
+	position:absolute;
+	top:326.5vw;
+	min-height: 80vw;
+}
+
+#ESE_pic6{
+	background-image: url("../images/IMG_3364.JPG");
+	position:absolute;
+	top:406.5vw;
+	min-height: 70vw;
+}
+
+#ESE_pic7{
+	background-image: url("../images/graduation1.JPG");
+	position:absolute;
+	top:476.5vw;
+	min-height: 55vw;
+}
+
+#ESE_pic8{
+	background-image: url("../images/graduation1.JPG");
+	position:absolute;
+	top:396.5vw;
+	min-height: 80vw;
+}
+.front{
+	z-index = 999;
+}
+
+.timeline h3{
+	font-size: 110%;
+	text-align: left;
+}
+
+.align-left{
+	text-align:left; 
+}
 .parallax_travel {
   /* The image used */
   background-image: url("../images/Sagrada Familia.jpg");
@@ -492,4 +556,8 @@ footer{
 .my_font .navbar-brand{
 	font-size: 120.5%;
 	padding-right:0;
+}
+
+.ESE_pic{
+	background
 }
