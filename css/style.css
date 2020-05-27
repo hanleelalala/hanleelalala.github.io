@@ -154,14 +154,30 @@ background-image: url("../images/plg2.jpg");
 	min-height: 55vw;
 }
 
-#ESE_pic8{
-	background-image: url("../images/graduation1.JPG");
+#DR_pic1{
+	background-image: url("../images/IMG_5016.jpg");
 	position:absolute;
-	top:396.5vw;
-	min-height: 80vw;
+	top:6.5vw;
+	min-height: 145vw;	
+
 }
+#DR_pic2{
+	background-image: url("../images/IMG_3290.jpg");
+	position:absolute;
+	top:151.5vw;
+	min-height: 140vw;	
+
+}
+
+
 .front{
 	z-index = 999;
+}
+
+#sensor_mov_position{
+	position: absolute;
+	top:45vw;
+	right:10vw;
 }
 
 .timeline h3{
