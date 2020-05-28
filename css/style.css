@@ -169,6 +169,14 @@ background-image: url("../images/plg2.jpg");
 
 }
 
+#HDR_pic1{
+	background-image: url("../images/office.jpg");
+	position:absolute;
+	top:6.5vw;
+	min-height: 80vw;	
+
+}
+
 
 .front{
 	z-index = 999;
