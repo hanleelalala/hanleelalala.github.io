@@ -420,8 +420,9 @@ footer{
  	}
 #DTPosition{
  	position: absolute;
- 	top:40vw;
+ 	top:35vw;
  	left:30vw;
+ 	color:white;
  	}
 
 #ExchangeStudentPosition{
